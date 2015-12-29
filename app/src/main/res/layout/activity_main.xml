@@ -1,59 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    android:orientation="vertical"
-    tools:context="com.example.melvin.iwillnamethissoon.MainActivity">
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:id="@+id/topLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Athlete Name" />
+
+        <Spinner
+            android:id="@+id/dates"
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_alignParentLeft="true"/>
+
     </RelativeLayout>
 
-
-
     <LinearLayout
-        android:orientation="horizontal"
-<<<<<<< HEAD
-<<<<<<< HEAD
-        android:weightSum="1">
+        android:id="@+id/bottomLayout"
+        android:layout_above="@id/topLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
 
         <LinearLayout
-
-            android:layout_width="388dp"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/times"
-                android:layout_alignParentRight="true"
-                android:text="Major" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/times"
-                android:layout_alignParentRight="true"
-                android:text="Major"
-                android:layout_gravity="center_horizontal" />
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-        <LinearLayout
-
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_above="@id/topLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:orientation="vertical">
             <Button
                 android:layout_width="wrap_content"
@@ -62,22 +48,35 @@
                 android:layout_alignParentRight="true"
                 android:text="Major" />
         </LinearLayout>
-=======
-=======
->>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
-=======
->>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="center_vertical"></LinearLayout>
-    <include layout="@layout/content_main" />
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
-=======
->>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
-=======
->>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
+
+        <LinearLayout
+            android:layout_above="@id/topLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/times"
+                android:layout_alignParentRight="true"
+                android:text="Major" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_above="@id/topLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/times"
+                android:layout_alignParentRight="true"
+                android:text="Major" />
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>
-
