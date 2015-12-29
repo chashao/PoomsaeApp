@@ -35,35 +35,37 @@
 
         <LinearLayout
 
-            android:layout_width="280dp"
-            android:layout_height="fill_parent"
-            android:orientation="vertical"
-            android:layout_weight="0.37">
+            android:layout_width="388dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/times"
                 android:layout_alignParentRight="true"
                 android:text="Major" />
-        </LinearLayout>
 
-        <LinearLayout
-
-            android:layout_width="203dp"
-            android:layout_height="fill_parent"
-            android:orientation="vertical"
-            android:layout_weight="0.38">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/times"
                 android:layout_alignParentRight="true"
-                android:text="Major" />
+                android:text="Major"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="621dp"
-            android:layout_height="fill_parent"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
             <Button
                 android:layout_width="wrap_content"
