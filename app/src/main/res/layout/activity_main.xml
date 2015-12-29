@@ -18,6 +18,7 @@
     <LinearLayout
         android:orientation="horizontal"
 <<<<<<< HEAD
+<<<<<<< HEAD
         android:weightSum="1">
 
         <LinearLayout
@@ -64,11 +65,16 @@
 =======
 =======
 >>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
+=======
+>>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="center_vertical"></LinearLayout>
     <include layout="@layout/content_main" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
+=======
 >>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
 =======
 >>>>>>> parent of d0d2f97... Begin formatting buttons and other functions
